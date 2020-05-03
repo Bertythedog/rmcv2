@@ -1,0 +1,14 @@
+/* Container Full Width that everything is wrapped in */
+.container-full-width {
+	width: 100%;
+}
+
+.container-full-width:before, .container-full-width:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.container-full-width:after {
+	clear: both;
+}

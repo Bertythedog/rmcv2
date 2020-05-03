@@ -1,0 +1,48 @@
+The Following Needs to Be Inserted Before Uploading:
+
+File map.css must be in root.
+
+index.html
+<!-- For the map.css to work it must be copied and placed directly under the stylesheets-->
+<link href="map.css" rel="stylesheet">
+
+<!-- For the email to work replace with this code-->
+ <div id="Card7-card-item4"><a href="mailto:Service@ReigateMotorCompany.co.uk" style="text-decoration: none; text-size: 13;">Service@ReigateMotorCompany.co.uk</a></div>
+
+Next...
+
+<!-- The map code needs to placed after the last </div>
+<div id="Card7-card-item6">Reigate Motor Company<br>2 Reigate Road<br>Sidlow<br>Reigate<br>Surrey<br>RH2 8QH</div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+
+
+<!-- This is the map code, to be placed after the last </div> above -->
+
+<div class="col-2">
+<!-- The id="Google-map" div can be deleted on the next update -->
+<!-- <div id="Google-map" <div class="container-full-width" id="page_section_section"> -->
+<div class="container">
+    <div class="container-fluid">
+      <div id="container" class="row-fluid">
+        <div id="content" class=" span8 content-sidebar-right">
+          <article id="post-14" class="post-14 page type-page status-publish hentry">
+            <div class="entry-summary">
+              <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
+                <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.9903064840933!2d-0.20082384228787298!3d51.20818164944958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb68b97c85b7793a9!2sReigate%20Motor%20Company!5e0!3m2!1sen!2suk!4v1587028747026!5m2!1sen!2suk"
+                  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  </div>
+
+Next...

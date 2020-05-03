@@ -1,0 +1,706 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="RMCmapV2.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#wb_ResponsiveMenu1 ul li a").click(function(event)
+   {
+      $("#wb_ResponsiveMenu1 input").prop("checked", false);
+   });
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
+   $("a[href*='#action-1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_action-1').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#action-2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_action-2').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#numbers']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_numbers').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $('#wb_numbers').parallax();
+   $("a[href*='#what-we-do-2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_what-we-do-2').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#pricing-2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_pricing-2').offset().top-88 }, 600, 'easeOutCirc');
+   });
+});
+</script>
+ <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="wb_nav-holder">
+<div id="nav-holder">
+<div class="col-1">
+<div id="wb_ResponsiveMenu1">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href="./index.html" title="Home">Home</a></li>
+<li>
+<label for="ResponsiveMenu1-submenu-0" class="toggle">Menu<b class="arrow-down"></b></label>
+<a role="menuitem" href="./index.html" title="Menu">Menu<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li><a role="menuitem" href="./Mot.html">Mot</a></li>
+<li><a role="menuitem" href="./Pricing.html">Pricing</a></li>
+<li><a role="menuitem" href="./Tyres-Brakes.html" title="Tyres/Brakes">Tyres/Brakes</a></li>
+<li><a role="menuitem" href="./Batteries.html" title="Batteries">Batteries</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="./Servicing.html">Servicing</a></li>
+<li>
+<label for="ResponsiveMenu1-submenu-1" class="toggle">Repairs<b class="arrow-down"></b></label>
+<a role="menuitem" href="./Repairs.html">Repairs<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-1">
+<ul role="menu">
+<li><a role="menuitem" href="./Clutches.html" title="Clutches">Clutches</a></li>
+<li><a role="menuitem" href="./Diagnostics.html" title="Diagnostics">Diagnostics</a></li>
+</ul>
+</li>
+<li><a role="menuitem" href="./About.html">About</a></li>
+<li><a role="menuitem" href="./Contact.html">Contact</a></li>
+<li><a role="menuitem" href="./Electric-Cars.html" title="Electric-Cars">Electric-Cars</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text2">
+<span style="color:#57C0FF;letter-spacing:5.07px;">Tel: 01737 244000</span>
+</div>
+<div id="FlexContainer1">
+<div id="wb_Image3">
+<img src="images/rmc-logo-2.png" id="Image3" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Stickylayer" data-250-start="opacity:1;" data-start="opacity:0;">
+<div id="wb_Arrowup">
+<a href="#"><div id="Arrowup"><i class="fa fa-angle-up"></i></div></a></div>
+</div>
+
+<div id="wb_header-car">
+<div id="header-car-overlay"></div>
+<div id="header-car">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_h1-grid">
+<div id="h1-grid">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Text7">
+<span style="color:#FFFFFF;letter-spacing:2.07px;">A Better Way To Service Your Car</span>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_why-us">
+<div id="why-us">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card20">
+   <div id="Card20-card-body">
+      <div id="Card20-card-item0"><i class="fa fa-handshake-o"></i></div>
+      <div id="Card20-card-item1">We'll Take Good Care of You</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_action-1">
+<div id="action-1">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card16">
+   <div id="Card16-card-body">
+      <div id="Card16-card-item0"><i class="fa fa-trophy"></i></div>
+      <div id="Card16-card-item1">Reliable</div>
+      <div id="Card16-card-item2">Open 6 days a week Mon - Sat</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card10">
+   <div id="Card10-card-body">
+      <a href="https://www.google.co.uk/search?q=Reigate+Motor+Company,+2+Reigate+Rd,+Sidlow,+Reigate+RH2+8QH&ludocid=13153774023449482153#lrd=0x4875e53af750af5f:0xb68b97c85b7793a9,1" target="_blank"><img id="Card10-card-item0" src="images/google-logo.png" alt="" title=""></a>
+      <div id="Card10-card-item1">Trust</div>
+      <div id="Card10-card-item2">Our Customers trust us (Click the stars to see our Google Reviews)</div>
+      <a href="https://www.google.co.uk/search?q=Reigate+Motor+Company,+2+Reigate+Rd,+Sidlow,+Reigate+RH2+8QH&ludocid=13153774023449482153#lrd=0x4875e53af750af5f:0xb68b97c85b7793a9,1" target="_blank"><img id="Card10-card-item3" src="images/google-stars.png" alt="" title=""></a>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card15">
+   <div id="Card15-card-body">
+      <div id="Card15-card-item0"><i class="fa fa-check-square"></i></div>
+      <div id="Card15-card-item1">Guarantee</div>
+      <div id="Card15-card-item2">All of our work is Guaranteed</div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_action-2">
+<div id="action-2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card19">
+   <div id="Card19-card-body">
+      <div id="Card19-card-item0"><i class="fa fa-cart-arrow-down"></i></div>
+      <div id="Card19-card-item1">Price</div>
+      <div id="Card19-card-item2">Lower than main dealer costs</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card18">
+   <div id="Card18-card-body">
+      <div id="Card18-card-item0"><i class="fa fa-handshake-o"></i></div>
+      <div id="Card18-card-item1">Customer Care</div>
+      <div id="Card18-card-item2">Thousands of satisfied customers</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card13">
+   <div id="Card13-card-body">
+      <div id="Card13-card-item0"><i class="fa fa-diamond"></i></div>
+      <div id="Card13-card-item1">Qualified</div>
+      <div id="Card13-card-item2">Our technicians are Bosch Quailified</div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_call-now">
+<div id="call-now">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Image5">
+<img src="images/aa-logo.png" id="Image5" alt="">
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card17">
+   <div id="Card17-card-body">
+      <div id="Card17-card-item0"><i class="fa fa-phone"></i></div>
+      <div id="Card17-card-item1">Call Now</div>
+      <div id="Card17-card-item2">01737 244000</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Image1">
+<img src="images/rac-logo2.png" id="Image1" alt="">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_numbers">
+<div id="numbers-overlay"></div>
+<div id="numbers">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card12">
+   <div id="Card12-card-body">
+      <div id="Card12-card-item0">35</div>
+      <div id="Card12-card-item1">Years of Experence</div>
+   </div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card11">
+   <div id="Card11-card-body">
+      <div id="Card11-card-item0">1287</div>
+      <div id="Card11-card-item1">Happy Customers</div>
+   </div>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Card14">
+   <div id="Card14-card-body">
+      <div id="Card14-card-item0">1394</div>
+      <div id="Card14-card-item1">Cars Repaired</div>
+   </div>
+
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Card6">
+   <div id="Card6-card-body">
+      <div id="Card6-card-item0">6</div>
+      <div id="Card6-card-item1">Quailified Techinicians</div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_services-1">
+<div id="services-1">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card21">
+   <div id="Card21-card-body">
+      <div id="Card21-card-item0">Servicing</div>
+      <img id="Card21-card-item1" src="images/engine-service.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card22">
+   <div id="Card22-card-body">
+      <div id="Card22-card-item0">Repairs</div>
+      <img id="Card22-card-item1" src="images/engine-repairs.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card23">
+   <div id="Card23-card-body">
+      <div id="Card23-card-item0">Mot's</div>
+      <img id="Card23-card-item1" src="images/Bosch-mot-sign.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-4">
+<div class="col-4-padding">
+<div id="wb_Card24">
+   <div id="Card24-card-body">
+      <div id="Card24-card-item0">Electric Cars</div>
+      <img id="Card24-card-item1" src="images/Electric-Car-Charging.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_services-2">
+<div id="services-2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card25">
+   <div id="Card25-card-body">
+      <div id="Card25-card-item0">Tyres/Brakes</div>
+      <img id="Card25-card-item1" src="images/car-tyres.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card26">
+   <div id="Card26-card-body">
+      <div id="Card26-card-item0">Clutches</div>
+      <img id="Card26-card-item1" src="images/clutch.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card27">
+   <div id="Card27-card-body">
+      <div id="Card27-card-item0">Diagnostics</div>
+      <img id="Card27-card-item1" src="images/diagnostics-1.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-4">
+<div class="col-4-padding">
+<div id="wb_Card28">
+   <div id="Card28-card-body">
+      <div id="Card28-card-item0">Batteries</div>
+      <img id="Card28-card-item1" src="images/battery.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_what-we-do-1">
+<div id="what-we-do-1">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Text3" class="Montserrat-20px">
+<span style="color:#FFFFFF;">REIGATE MOTOR COMPANY</span>
+</div>
+<div id="wb_Text12" class="Montserrat-20px">
+<span style="background-color:#004AFF;color:#FFFFFF;letter-spacing:2.07px;">BOOK NOW<br>Tel: 01737 244000</span>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_what-we-do-2">
+<div id="what-we-do-2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card2">
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0"><i class="fa fa-car"></i></div>
+      <div id="Card2-card-item1">Servicing</div>
+      <div id="Card2-card-item2">Everyone wants a reliable vehicle, so regular professional servicing is an important factor in maintaining car performance and reliability. Our team of very highly trained technicians, will service and repair your vehicle to dealer standards with a personal touch, and at a price you can afford.</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card3">
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0"><i class="fa fa-tachometer"></i></div>
+      <div id="Card3-card-item1">Mot</div>
+      <div id="Card3-card-item2">All cars three years old or over must have an MOT test every year to ensure the car is roadworthy and in safe working order. Faults and defects that cause harmful emissions can develop in less than 12 months, so it is important to keep track of your emissions between tests.<br></div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card4">
+   <div id="Card4-card-body">
+      <div id="Card4-card-item0"><i class="fa fa-wrench"></i></div>
+      <div id="Card4-card-item1">Repairs</div>
+      <div id="Card4-card-item2">All work is carried out by the best technicians, using the best quality parts. We are set up to carry out garage repairs including: Clutches Steering Suspension Braking as well as the installation of major units such as engines and gear boxes.</div>
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-4">
+<div class="col-4-padding">
+<div id="wb_Card9">
+   <div id="Card9-card-body">
+      <div id="Card9-card-item0"><i class="fa fa-gears"></i></div>
+      <div id="Card9-card-item1">Diagnostics</div>
+      <div id="Card9-card-item2">Our highly trained technicians are able to deal with repair faults in: Airbag systems Anti-lock braking systems Fuel injection systems Engine Management Electronic diesel control systems And many more….</div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pricing-1">
+<div id="pricing-1">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Text4" class="Montserrat-20px">
+<span style="color:#FFFFFF;">Pricing</span>
+</div>
+<div id="wb_Text5" class="Montserrat-20px">
+<span style="color:#FFFFFF;">Pricing that fits your needs</span>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_pricing-2">
+<div id="pricing-2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card8">
+   <div id="Card8-card-header">Service</div>
+   <div id="Card8-card-body">
+      <div id="Card8-card-item1">Intermediate Service</div>
+      <hr id="Card8-card-item2">
+      <div id="Card8-card-item3">Full Service</div>
+      <hr id="Card8-card-item4">
+      <div id="Card8-card-item5">Aircon Service</div>
+      <hr id="Card8-card-item6">
+      <div id="Card8-card-item7">Brake Fluid Service</div>
+      <hr id="Card8-card-item8">
+      <div id="Card8-card-item9">Call For Details<br>Phone: 01737 244000</div>
+   </div>
+   <div id="Card8-card-footer"></div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card1">
+   <div id="Card1-card-header">Repairs</div>
+   <div id="Card1-card-body">
+      <div id="Card1-card-item1">Mechanical Repairs</div>
+      <hr id="Card1-card-item2">
+      <div id="Card1-card-item3">Electrical Repairs</div>
+      <hr id="Card1-card-item4">
+      <div id="Card1-card-item5">Clutch Repairs</div>
+      <hr id="Card1-card-item6">
+      <div id="Card1-card-item7">Suspension Repairs</div>
+      <hr id="Card1-card-item8">
+      <div id="Card1-card-item9">Call For Details<br>Phone: 01737 244000</div>
+   </div>
+   <div id="Card1-card-footer"></div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card5">
+   <div id="Card5-card-header">Mot</div>
+   <div id="Card5-card-body">
+      <div id="Card5-card-item1">Cars</div>
+      <hr id="Card5-card-item2">
+      <div id="Card5-card-item3">Light Vans</div>
+      <hr id="Card5-card-item4">
+      <div id="Card5-card-item5">While-U-Wait</div>
+      <hr id="Card5-card-item6">
+      <div id="Card5-card-item7">Waiting Area</div>
+      <hr id="Card5-card-item8">
+      <div id="Card5-card-item9">Book Your MOT<br>Phone: 01737 244000</div>
+   </div>
+   <div id="Card5-card-footer"></div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_logos-1">
+<div id="logos-1">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card29">
+   <div id="Card29-card-body">
+      <img id="Card29-card-item0" src="images/bosch-sign-3.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card30">
+   <div id="Card30-card-body">
+      <img id="Card30-card-item0" src="images/t-standards.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card31">
+   <div id="Card31-card-body">
+      <img id="Card31-card-item0" src="images/m-ombudsman.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+<div class="col-4">
+<div class="col-4-padding">
+<div id="wb_Card32">
+   <div id="Card32-card-body">
+      <img id="Card32-card-item0" src="images/code-of-practice.png" alt="" title="">
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact-1">
+<div id="contact-1">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Text6" class="Montserrat-20px">
+<span style="color:#FFFFFF;">Contact</span>
+</div>
+<div id="wb_Text8">
+<span style="color:#FFFFFF;">You can contact us by:</span>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact-2">
+<div id="contact-2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card7">
+   <div id="Card7-card-body">
+      <div id="Card7-card-item0"><i class="fa fa-phone"></i></div>
+      <div id="Card7-card-item1">Phone: 01737 244000</div>
+      <div id="Card7-card-item2"><a href="mailto:Service@ReigateMotorCompany.co.uk" title="Service@ReigateMotorCompany.co.uk"><i class="fa fa-envelope"></i></a></div>
+      <div id="Card7-card-item3">Service@ReigateMotorCompany.co.uk</div>
+   </div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card36">
+   <div id="Card36-card-body">
+      <div id="Card36-card-item0"><i class="fa fa-globe"></i></div>
+      <div id="Card36-card-item1">Reigate Motor Company<br>2 Reigate Road<br>Sidlow<br>Reigate<br>Surrey<br>RH2 8QH</div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<a id="Button1" href="./index.html" onclick="window.location.href='./index.html';return false;">To The Top</a>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Footer">
+<div id="Footer">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:19px;">Powered by Reigate Motor Company</span>
+</div>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+</div>
+<script src="wwb15.min.js"></script><script src="wwb15.min.js"></script></body>
+</html>
