@@ -14,10 +14,6 @@
 <script>
 $(document).ready(function()
 {
-   $("#wb_ResponsiveMenu1 ul li a").click(function(event)
-   {
-      $("#wb_ResponsiveMenu1 input").prop("checked", false);
-   });
    function skrollrInit()
    {
       skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
@@ -45,10 +41,10 @@ $(document).ready(function()
 <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
 <input type="checkbox" id="ResponsiveMenu1-submenu">
 <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
-<li><a role="menuitem" href="./index.html" title="Home">Home</a></li>
+<li><a role="menuitem" href="./Home.html" title="Home">Home</a></li>
 <li>
 <label for="ResponsiveMenu1-submenu-0" class="toggle">Menu<b class="arrow-down"></b></label>
-<a role="menuitem" href="./index.html" title="Menu">Menu<b class="arrow-down"></b></a>
+<a role="menuitem" href="./Home.html" title="Menu">Menu<b class="arrow-down"></b></a>
 <input type="checkbox" id="ResponsiveMenu1-submenu-0">
 <ul role="menu">
 <li><a role="menuitem" href="./Mot.html">Mot</a></li>
