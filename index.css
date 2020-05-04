@@ -1,6 +1,6 @@
 body
 {
-   background-color: #FFFFFF;
+   background-color: #F2F2F2;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -782,7 +782,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
@@ -1064,7 +1064,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
@@ -1442,7 +1442,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
@@ -1766,7 +1766,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
@@ -2271,7 +2271,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -2280,7 +2280,7 @@ body
 #pricing-1
 {
    box-sizing: border-box;
-   padding: 20px 15px 0px 15px;
+   padding: 60px 15px 0px 15px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -2358,7 +2358,7 @@ body
 }
 #wb_Text4
 {
-   color: #FFFFFF;
+   color: #000000;
    font-family: Montserrat;
    font-weight: normal;
    font-size: 32px;
@@ -2397,7 +2397,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -3016,7 +3016,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #FFFFFF;
+   background-color: transparent;
    background-image: none;
    border: 0px solid transparent;
    box-sizing: border-box;
@@ -5388,15 +5388,15 @@ body
 {
 body
 {
-   background-color: #FFFFFF;
+   background-color: #ED7D31;
    background-image: none;
 }
 #MasterPage1
 {
    left: 0px;
    top: 0px;
-   width: 768px;
-   height: 20120px;
+   width: 1040px;
+   height: 1500px;
    visibility: visible;
    display: inline;
 }
@@ -5442,6 +5442,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_h1-grid
 {
@@ -5495,6 +5497,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_why-us
 {
@@ -5670,6 +5674,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_call-now
 {
@@ -5915,6 +5921,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_facilities-1
 {
@@ -6134,6 +6142,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_what-we-do-1
 {
@@ -6502,6 +6512,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_pricing-1
 {
@@ -6510,7 +6522,7 @@ body
 }
 #pricing-1
 {
-   padding: 20px 15px 0px 15px;
+   padding: 60px 15px 0px 15px;
 }
 #pricing-1 .row
 {
@@ -6581,6 +6593,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_pricing-2
 {
@@ -7087,6 +7101,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_contact-1
 {
@@ -7150,6 +7166,8 @@ body
 {
    visibility: visible;
    display: block;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_Text8
 {
@@ -7291,6 +7309,8 @@ body
 {
    visibility: visible;
    display: block;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_Text7
 {
@@ -8494,6 +8514,8 @@ body
    visibility: visible;
    display: table;
    font-weight: normal;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_map
 {
@@ -8561,7 +8583,7 @@ body
 {
 body
 {
-   background-color: #FFFFFF;
+   background-color: #F2F2F2;
    background-image: none;
 }
 #MasterPage1
@@ -8709,7 +8731,6 @@ body
    display: block;
    background-color: transparent;
    background-image: none;
-   background-image: none;
    border: 0px solid #000000;
 }
 #wb_Text1
@@ -8794,6 +8815,7 @@ body
    font-style: normal;
    text-decoration: none;
    background-color: #616161;
+   background-image: none;
    background-image: none;
    border: 0px solid #CCCCCC;
 }
@@ -9954,7 +9976,7 @@ body
 }
 #pricing-1
 {
-   padding: 20px 15px 0px 15px;
+   padding: 60px 15px 0px 15px;
 }
 #pricing-1 .row
 {
